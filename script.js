@@ -1,3 +1,5 @@
+document.addEventListener('touchstart', () => {}, { passive: true });
+
 const experiences = document.querySelectorAll('.experience');
 
 experiences.forEach(experience => {
@@ -8,10 +10,10 @@ experiences.forEach(experience => {
 
     experience.addEventListener('touchend', () => {
         experience.classList.remove('touch-active');
-    });
+    }, { passive: true });
 
     experience.addEventListener('touchcancel', () => {
         experience.classList.remove('touch-active');
-    });
+    }, { passive: true });
 
 });
