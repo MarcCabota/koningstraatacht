@@ -1346,24 +1346,29 @@ body {
 @media (max-width: 700px) {
 
     .sunny-intro {
-        height: 35.76vw;
+        height: 43vw;
     }
 
     .sunny-intro .experience-intro-content {
+        position: absolute;
         left: 12.5%;
+        top: 7vw;
+        bottom: auto;
     }
 
-.sunny-intro .experience-intro-content h1 {
-    top: 18vw;
-    font-size: 4.2vw;
-    line-height: 1.1;
-}
+    .sunny-intro .experience-intro-content h1 {
+        position: static;
+        font-size: 4.2vw;
+        line-height: 1.1;
+    }
 
-.sunny-intro .experience-intro-content p {
-    top: 28vw;
-    font-size: 2vw;
-    line-height: 1.2;
-}
+    .sunny-intro .experience-intro-content p {
+        position: static;
+        margin-top: 4vw;
+        font-size: 2vw;
+        line-height: 1.2;
+    }
+
 
     .sunny-content {
         height: 286.11vw;
