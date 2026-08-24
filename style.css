@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
 }
 
 body {
@@ -155,7 +156,7 @@ a {
 
 .experience {
     position: relative;
-
+    scroll-snap-align: start;
     display: block;
 
     width: 100%;
