@@ -1512,3 +1512,635 @@ body.sunny-page {
         scroll-snap-type: none !important;
     }
 }
+
+
+
+
+/* =========================================================
+   ORTHODOX DISTRICT
+========================================================= */
+
+.orthodox-page {
+    background: #0e0e0c;
+    color: white;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.orthodox-intro {
+    position: relative;
+    height: 705px;
+    background: #0e0e0c;
+    overflow: hidden;
+}
+
+.orthodox-intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.orthodox-intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.orthodox-intro-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48%;
+    height: 100%;
+
+    background: linear-gradient(
+        to right,
+        rgba(14,14,12,0) 0%,
+        rgba(14,14,12,0.35) 35%,
+        #0e0e0c 100%
+    );
+}
+
+.orthodox-intro .experience-intro-content {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 50%;
+    text-align: right;
+}
+
+.orthodox-intro .experience-intro-content h1 {
+    position: absolute;
+    top: 236px;
+    right: 0;
+
+    margin: 0;
+
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 500;
+
+    white-space: nowrap;
+}
+
+.orthodox-intro .experience-intro-content p {
+    position: absolute;
+    top: 389px;
+    right: 0;
+
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 400;
+
+    letter-spacing: 0.12em;
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.orthodox-content {
+    position: relative;
+
+    width: 100%;
+    height: 3738px;
+
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.orthodox-description {
+    position: absolute;
+
+    top: -30px;
+    right: 17.5%;
+
+    width: 500px;
+
+    margin: 0;
+
+    text-align: right;
+}
+
+.orthodox-description p {
+    margin: 0;
+
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   FIRST TEXT
+========================================================= */
+
+.orthodox-text-1 {
+    position: absolute;
+
+    top: 355px;
+    left: 20%;
+
+    width: max-content;
+
+    margin: 0;
+
+    --reveal-x: -80px;
+}
+
+.orthodox-text-1 p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   IMAGE 2
+========================================================= */
+
+.orthodox-image-1 {
+    position: absolute;
+
+    top: 765px;
+    left: 19%;
+
+    width: 50%;
+    height: 405px;
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.orthodox-image-1 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   COUNTER
+========================================================= */
+
+.orthodox-counter {
+    position: absolute;
+
+    top: 1145px;
+    left: 12.3%;
+
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 300;
+
+    --reveal-x: -40px;
+}
+
+
+/* =========================================================
+   IMAGE 3
+========================================================= */
+
+.orthodox-image-2 {
+    position: absolute;
+
+    top: 1265px;
+    left: 7.5%;
+
+    width: 49.5%;
+    height: 430px;
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.orthodox-image-2 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   SILHOUETTE
+========================================================= */
+
+.orthodox-silhouette {
+    position: absolute;
+
+    top: 750px;
+    right: -18%;
+
+    width: 76%;
+    height: 1000px;
+
+    margin: 0;
+
+    opacity: 0.03;
+
+    z-index: 1;
+    overflow: visible;
+}
+
+.orthodox-silhouette img {
+    width: 270%;
+    height: 150%;
+
+    object-fit: contain;
+    object-position: left center;
+
+    opacity: 0.1;
+    filter: brightness(0.5);
+    mix-blend-mode: screen;
+}
+
+
+/* =========================================================
+   CENTER TEXT
+========================================================= */
+
+.orthodox-text-2 {
+    position: absolute;
+
+    top: 1900px;
+    left: 50%;
+
+    width: max-content;
+
+    margin: 0;
+
+    text-align: center;
+
+    --reveal-x: -50%;
+
+    z-index: 2;
+}
+
+.orthodox-text-2 p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   FULL WIDTH IMAGE
+========================================================= */
+
+.orthodox-image-full {
+    position: absolute;
+
+    top: 2100px;
+    left: 0;
+
+    width: 100%;
+    height: 809px;
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.orthodox-image-full img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   FINAL TEXT
+========================================================= */
+
+.orthodox-final-text {
+    position: absolute;
+
+    top: 3000px;
+    left: 0;
+
+    width: 100%;
+
+    margin: 0;
+
+    text-align: right;
+    padding-right: 15%;
+}
+
+.orthodox-final-text p {
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+.orthodox-navigation {
+    position: absolute;
+
+    top: 3810px;
+    left: 8.33%;
+
+    width: 83.34%;
+    height: 190px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.orthodox-navigation a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.orthodox-navigation .previous {
+    justify-content: flex-start;
+}
+
+.orthodox-navigation .back {
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.orthodox-navigation .next {
+    justify-content: flex-end;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    /* -----------------------------------------------------
+       INTRO
+    ----------------------------------------------------- */
+
+    .orthodox-intro {
+        height: 43vw;
+    }
+
+    .orthodox-intro-image {
+        left: 0;
+        width: 48%;
+        height: 100%;
+    }
+
+    .orthodox-intro-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .orthodox-intro-gradient {
+        left: 0;
+        width: 48%;
+        height: 100%;
+
+        background: linear-gradient(
+            to right,
+            rgba(14,14,12,0) 0%,
+            rgba(14,14,12,0.35) 35%,
+            #0e0e0c 100%
+        );
+    }
+
+    .orthodox-intro .experience-intro-content {
+        top: 0;
+        left: 40%;
+        width: 50%;
+
+        text-align: right;
+    }
+
+    .orthodox-intro .experience-intro-content h1 {
+        top: 13.1vw;
+        right: 0;
+
+        font-size: 4.44vw;
+        line-height: 1;
+
+        white-space: nowrap;
+    }
+
+    .orthodox-intro .experience-intro-content p {
+        top: 23.75vw;
+        right: 0;
+
+        font-size: 2.22vw;
+        line-height: 1;
+
+        letter-spacing: 0.12em;
+    }
+
+
+    /* -----------------------------------------------------
+       CONTENT
+    ----------------------------------------------------- */
+
+    .orthodox-content {
+        width: 100%;
+        height: 259vw;
+
+        max-width: none;
+        margin: 0;
+        padding: 0;
+
+        position: relative;
+    }
+
+
+    /* DESCRIPTION */
+
+    .orthodox-description {
+        top: 17.5vw;
+        right: 17.5%;
+
+        width: 25.9vw;
+
+        text-align: right;
+    }
+
+    .orthodox-description p {
+        font-size: 1.944vw;
+        line-height: 2.222vw;
+    }
+
+
+    /* FIRST TEXT */
+
+    .orthodox-text-1 {
+        top: 30vw;
+        left: 14.5%;
+
+        width: max-content;
+
+        --reveal-x: -8vw;
+    }
+
+    .orthodox-text-1 p {
+        font-size: 1.944vw;
+        line-height: 2.222vw;
+    }
+
+
+    /* IMAGE 2 */
+
+    .orthodox-image-1 {
+        top: 43vw;
+        left: 17.5%;
+
+        width: 50%;
+        height: 28vw;
+    }
+
+
+    /* COUNTER */
+
+    .orthodox-counter {
+        top: 70.5vw;
+        left: 12.3%;
+
+        font-size: 1.667vw;
+        line-height: 2.222vw;
+
+        --reveal-x: -4vw;
+    }
+
+
+    /* IMAGE 3 */
+
+    .orthodox-image-2 {
+        top: 77vw;
+        left: 7.2%;
+
+        width: 49.5%;
+        height: 31vw;
+    }
+
+
+    /* SILHOUETTE */
+
+    .orthodox-silhouette {
+        top: 75vw;
+        right: 0;
+
+        width: 13%;
+        height: 45vw;
+
+        opacity: 0.13;
+    }
+
+
+    /* CENTER TEXT */
+
+    .orthodox-text-2 {
+        top: 112vw;
+        left: 50%;
+
+        width: max-content;
+
+        transform: translateX(-50%);
+
+        --reveal-x: 0;
+    }
+
+    .orthodox-text-2 p {
+        font-size: 1.944vw;
+        line-height: 2.222vw;
+    }
+
+
+    /* FULL IMAGE */
+
+    .orthodox-image-full {
+        top: 123vw;
+        left: 0;
+
+        width: 100%;
+        height: 56.18vw;
+    }
+
+
+    /* FINAL TEXT */
+
+    .orthodox-final-text {
+        top: 186vw;
+        right: 0;
+        left: 0;
+
+        width: 100%;
+
+        padding-right: 8.5%;
+
+        text-align: right;
+    }
+
+    .orthodox-final-text p {
+        font-size: 2.222vw;
+        line-height: 3.056vw;
+    }
+
+
+    /* NAVIGATION */
+
+    .orthodox-navigation {
+        top: 232vw;
+        left: 8.33%;
+
+        width: 83.34%;
+        height: 13.19vw;
+
+        font-size: 1.944vw;
+        line-height: 2.222vw;
+    }
+
+
+    /* -----------------------------------------------------
+       TOUCH / SCROLL
+    ----------------------------------------------------- */
+
+    html:has(body.orthodox-page),
+    body.orthodox-page {
+        touch-action: pan-y;
+    }
+}
