@@ -548,7 +548,7 @@ a {
 .experience-counter {
     position: absolute;
 
-    top: 1708px;
+    top: 1850px;
     left: 65.3%;
 
     transform: translateX(-50%);
@@ -570,8 +570,8 @@ a {
 .experience-text-center {
     position: absolute;
 
-    top: 1836px;
-    left: 65.35%;
+    top: 2020px;
+    left: 82.5%;
 
     transform: translateX(-50%);
 
@@ -634,6 +634,14 @@ a {
     font-size: 32px;
     line-height: 44px;
     font-weight: 300;
+}
+
+.experience-final-text p:first-child {
+    transform: translateX(-40px);
+}
+
+.experience-final-text p:last-child {
+    transform: translateX(40px);
 }
 
 
@@ -888,7 +896,7 @@ a {
     .experience-counter {
         position: absolute;
 
-        top: 118.61vw;
+        top: 128.47vw;
         left: 65.3%;
 
         margin: 0;
@@ -905,8 +913,8 @@ a {
     .experience-text-center {
         position: absolute;
 
-        top: 127.5vw;
-        left: 65.35%;
+        top: 140.3vw;
+        left: 82.5%;
 
         width: max-content;
 
@@ -956,6 +964,14 @@ a {
     .experience-final-text p {
         font-size: 2.222vw;
         line-height: 3.056vw;
+    }
+
+    .experience-final-text p:first-child {
+        transform: translateX(-2.4vw);
+    }
+
+    .experience-final-text p:last-child {
+        transform: translateX(2.4vw);
     }
 
 
