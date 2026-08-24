@@ -1480,7 +1480,7 @@ body {
 @media (max-width: 700px) {
 
     .sunny-page {
-        scroll-behavior: auto;
+        scroll-behavior: smooth;
     }
 
     .sunny-page .sunny-content {
