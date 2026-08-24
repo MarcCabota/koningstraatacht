@@ -504,6 +504,8 @@ a {
     transform: translateX(-100%);
 
     width: max-content;
+
+    --reveal-x: -100%;
 }
 
 .experience-text-left p {
@@ -556,6 +558,8 @@ a {
     font-family: monospace;
     font-size: 24px;
     line-height: 32px;
+
+    --reveal-x: -50%;
 }
 
 
@@ -572,6 +576,8 @@ a {
     transform: translateX(-50%);
 
     width: max-content;
+
+    --reveal-x: -50%;
 }
 
 .experience-text-center p {
@@ -679,7 +685,9 @@ a {
 
 .experience-page .reveal {
     opacity: 0;
-    transform: translateY(25px);
+    transform:
+        translateX(var(--reveal-x, 0))
+        translateY(25px);
 
     transition:
         opacity 0.9s ease,
@@ -688,9 +696,10 @@ a {
 
 .experience-page .reveal.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform:
+        translateX(var(--reveal-x, 0))
+        translateY(0);
 }
-
 
 /* =========================================================
    MOBILE
@@ -758,144 +767,215 @@ a {
     }
 
 
-    /* Mobile content becomes a normal vertical flow */
+    /* =====================================================
+       MOBILE EXPERIENCE CONTENT
+       Keeps the Figma composition and scales it proportionally
+    ===================================================== */
 
     .experience-content {
-        width: 100%;
-        height: auto;
-
-        padding-bottom: 80px;
-    }
-
-    .experience-description,
-    .experience-logo,
-    .experience-image-small,
-    .experience-text-left,
-    .experience-image-medium,
-    .experience-counter,
-    .experience-text-center,
-    .experience-image-full,
-    .experience-final-text,
-    .experience-navigation {
-
         position: relative;
 
-        top: auto;
-        left: auto;
-        right: auto;
+        width: 100%;
+        height: 285.21vw;
 
-        transform: none;
+        max-width: none;
 
-        width: auto;
-        height: auto;
-
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0;
+        padding: 0;
     }
 
 
+    /* DESCRIPTION */
+
     .experience-description {
-        margin-top: 100px;
-        margin-bottom: 80px;
+        position: absolute;
+
+        top: 17.5vw;
+        right: 17.5%;
+
+        width: 25.9vw;
+
+        margin: 0;
 
         text-align: right;
     }
 
     .experience-description p {
-        font-size: 19px;
-        line-height: 24px;
+        font-size: 1.944vw;
+        line-height: 2.222vw;
     }
 
 
+    /* KLIMAX LOGO */
+
     .experience-logo {
-        height: 100px;
-        margin-bottom: 90px;
+        position: absolute;
+
+        top: 31.46vw;
+        left: 14.5%;
+
+        width: 28.75vw;
+        height: 10.97vw;
+
+        margin: 0;
     }
 
     .experience-logo img {
+        width: 100%;
+        height: 100%;
+
         object-fit: contain;
     }
 
 
-    .experience-image-small {
-        width: calc(100% - 40px);
-        height: auto;
-        aspect-ratio: 16 / 9;
+    /* SMALL IMAGE */
 
-        margin-bottom: 70px;
+    .experience-image-small {
+        position: absolute;
+
+        top: 52.57vw;
+        left: 46%;
+
+        width: 46.11vw;
+        height: 25.9vw;
+
+        margin: 0;
+
+        overflow: hidden;
     }
 
 
+    /* FIRST TEXT */
+
     .experience-text-left {
-        margin-bottom: 70px;
+        position: absolute;
+
+        top: 63.89vw;
+        left: 33.3%;
+
+        width: max-content;
+
+        margin: 0;
+
+        --reveal-x: -100%;
     }
 
     .experience-text-left p {
-        font-size: 19px;
-        line-height: 24px;
+        font-size: 1.944vw;
+        line-height: 2.222vw;
     }
 
+
+    /* MEDIUM IMAGE */
 
     .experience-image-medium {
-        width: calc(100% - 40px);
-        height: auto;
-        aspect-ratio: 16 / 9;
+        position: absolute;
 
-        margin-bottom: 35px;
+        top: 93.47vw;
+        left: 9.5%;
+
+        width: 59.31vw;
+        height: 33.33vw;
+
+        margin: 0;
+
+        overflow: hidden;
     }
 
+
+    /* COUNTER */
 
     .experience-counter {
-        margin-bottom: 90px;
+        position: absolute;
 
-        text-align: right;
+        top: 118.61vw;
+        left: 65.3%;
 
-        font-size: 14px;
+        margin: 0;
+
+        --reveal-x: -50%;
+
+        font-size: 1.667vw;
+        line-height: 2.222vw;
     }
 
 
-    .experience-text-center {
-        margin-bottom: 90px;
+    /* CENTER TEXT */
 
-        text-align: center;
+    .experience-text-center {
+        position: absolute;
+
+        top: 127.5vw;
+        left: 65.35%;
+
+        width: max-content;
+
+        margin: 0;
+
+        --reveal-x: -50%;
     }
 
     .experience-text-center p {
-        font-size: 19px;
-        line-height: 24px;
+        font-size: 1.944vw;
+        line-height: 2.222vw;
     }
 
+
+    /* FULL WIDTH IMAGE */
 
     .experience-image-full {
+        position: absolute;
+
+        top: 158.13vw;
+        left: 0;
+
         width: 100%;
+        height: 56.18vw;
 
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
 
-        aspect-ratio: 16 / 9;
-
-        margin-bottom: 90px;
+        overflow: hidden;
     }
 
 
+    /* FINAL TEXT */
+
     .experience-final-text {
-        margin-bottom: 120px;
+        position: absolute;
+
+        top: 227.99vw;
+        left: 0;
+
+        width: 100%;
+
+        margin: 0;
 
         text-align: center;
     }
 
     .experience-final-text p {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 2.222vw;
+        line-height: 3.056vw;
     }
 
 
+    /* NAVIGATION */
+
     .experience-navigation {
-        width: calc(100% - 40px);
+        position: absolute;
+
+        top: 272.01vw;
+        left: 8.33%;
+
+        width: 83.34%;
+        height: 13.19vw;
+
+        margin: 0;
 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
 
-        font-size: 14px;
+        font-size: 1.944vw;
+        line-height: 2.222vw;
     }
 }
