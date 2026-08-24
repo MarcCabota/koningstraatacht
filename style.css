@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
 }
 
 body {
@@ -221,19 +222,20 @@ a {
    HOVER
 ========================= */
 
-.experience:hover img {
-    transform: scale(1.015);
+@media (hover: hover) {
+    .experience:hover img {
+        transform: scale(1.015);
+        filter: brightness(0.7);
+    }
 
-    filter: brightness(0.7);
-}
+    .experience:hover .experience-overlay {
+        background: rgba(0,0,0,0.15);
+    }
 
-.experience:hover .experience-overlay {
-    background: rgba(0,0,0,0.15);
-}
-
-.experience:hover .experience-title {
-    opacity: 1;
-    transform: translateY(0);
+    .experience:hover .experience-title {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .experience.touch-active img {
@@ -255,6 +257,9 @@ a {
 
 @media (max-width: 700px) {
 
+html {
+    scroll-behavior: smooth;
+}
     .header {
         height: 60px;
         padding: 0 20px;
