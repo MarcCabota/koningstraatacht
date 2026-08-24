@@ -270,21 +270,31 @@ a {
     }
 
     .experience-title {
-        left: 20px;
-        bottom: 20px;
-
         font-size: 18px;
-
-        opacity: 1;
-        transform: none;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.4s ease, transform 0.4s ease;
     }
 
     .experience-overlay {
-        background: rgba(0,0,0,0.12);
+        background: rgba(0,0,0,0);
     }
 
     .experience:hover img {
         transform: none;
         filter: none;
+    }
+    
+    .experience.active img {
+        filter: brightness(0.7);
+    }
+
+    .experience.active .experience-overlay {
+        background: rgba(0,0,0,0.15);
+    }
+
+    .experience.active .experience-title {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
