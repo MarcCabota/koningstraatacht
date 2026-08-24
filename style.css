@@ -11,6 +11,10 @@ html {
     scroll-snap-type: y proximity;
 }
 
+html:has(body.experience-page) {
+    scroll-snap-type: none;
+}
+
 body {
     background: #080808;
     color: #ffffff;
@@ -411,7 +415,7 @@ a {
 
     width: 100%;
     max-width: 1440px;
-    height: 4577px;
+    height: 4107px;
 
     margin: 0 auto;
 }

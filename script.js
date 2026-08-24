@@ -19,3 +19,32 @@ experiences.forEach(experience => {
     }, { passive: true });
 
 });
+
+/* =========================
+   EXPERIENCE PAGE REVEAL
+========================= */
+
+const revealElements = document.querySelectorAll('.experience-page .reveal');
+
+if (revealElements.length > 0) {
+
+    const revealObserver = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+
+            });
+        },
+        {
+            threshold: 0.15
+        }
+    );
+
+    revealElements.forEach((element) => {
+        revealObserver.observe(element);
+    });
+
+}
