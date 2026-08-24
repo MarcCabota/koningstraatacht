@@ -27,6 +27,13 @@ a {
     text-decoration: none;
 }
 
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 /* =========================
    HEADER
@@ -994,4 +1001,329 @@ a {
         font-size: 1.944vw;
         line-height: 2.222vw;
     }
+
+/* =====================================================
+   SUNNY ROOFTOP LUNCH — MOBILE
+===================================================== */
+
+.sunny-page {
+    background: #f2f1ed;
+}
+
+.sunny-content {
+    height: 286.11vw;
+}
+
+.sunny-intro {
+    height: 35.76vw;
+}
+
+.sunny-intro .experience-intro-content {
+    left: 12.5%;
+}
+
+.sunny-intro .experience-intro-content h1 {
+    top: 13.13vw;
+
+    font-size: 4.44vw;
+}
+
+.sunny-intro .experience-intro-content p {
+    top: 23.75vw;
+
+    font-size: 2.22vw;
+}
+
+.sunny-image-1 {
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 39.79vw;
+}
+
+.sunny-text-1 {
+    top: 43.54vw;
+    left: 56.2%;
+}
+
+.sunny-image-2 {
+    top: 61.25vw;
+    width: 49.24%;
+    height: 36.88vw;
+}
+
+.sunny-text-2 {
+    top: 78.65vw;
+}
+
+.sunny-image-3 {
+    top: 106.32vw;
+    left: 32.5%;
+
+    width: 67.5%;
+    height: 39.24vw;
+}
+
+.sunny-text-3 {
+    top: 143.68vw;
+}
+
+.sunny-image-4 {
+    top: 160.63vw;
+
+    width: 74.58%;
+    height: 41.94vw;
+}
+
+.sunny-text-4 {
+    top: 203.96vw;
+}
+
+.sunny-navigation {
+    top: 282.29vw;
+}
+
+
+}
+
+
+/* =========================================================
+   SUNNY ROOFTOP LUNCH
+========================================================= */
+
+.sunny-page {
+    background: #f2f1ed;
+    color: #000;
+}
+
+.sunny-intro {
+    height: 515px;
+    background: #f2f1ed;
+}
+
+.sunny-intro .experience-intro-content {
+    left: 12.5%;
+    top: 0;
+}
+
+.sunny-intro .experience-intro-content h1 {
+    top: 189px;
+    left: 0;
+
+    color: #000;
+
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.sunny-intro .experience-intro-content p {
+    top: 342px;
+    left: 0;
+
+    color: #000;
+
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+/* CONTENT */
+
+.sunny-content {
+    height: 3790px;
+    background: #f2f1ed;
+}
+
+
+/* IMAGES */
+
+.sunny-image-1 {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 573px;
+
+    overflow: hidden;
+}
+
+.sunny-image-1 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* DELICIOUS FOOD */
+
+.sunny-text-1 {
+    position: absolute;
+
+    top: 628px;
+    left: 56.2%;
+
+    transform: translateX(-100%);
+
+    width: max-content;
+}
+
+.sunny-text-1 p,
+.sunny-text-2 p,
+.sunny-text-3 p,
+.sunny-text-4 p {
+    margin: 0;
+
+    color: #000;
+
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+
+/* IMAGE 2 */
+
+.sunny-image-2 {
+    position: absolute;
+
+    top: 882px;
+    left: 0;
+
+    width: 49.24%;
+    height: 531px;
+
+    overflow: hidden;
+}
+
+.sunny-image-2 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* BLUE SKY */
+
+.sunny-text-2 {
+    position: absolute;
+
+    top: 1132px;
+    left: 79.44%;
+
+    transform: translateX(-100%);
+
+    width: max-content;
+}
+
+
+/* IMAGE 3 */
+
+.sunny-image-3 {
+    position: absolute;
+
+    top: 1531px;
+    left: 32.5%;
+
+    width: 67.5%;
+    height: 565px;
+
+    overflow: hidden;
+}
+
+.sunny-image-3 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* STUNNING VIEWS */
+
+.sunny-text-3 {
+    position: absolute;
+
+    top: 2069px;
+    left: 14.41%;
+
+    transform: translateX(-50%);
+
+    width: max-content;
+}
+
+
+/* IMAGE 4 */
+
+.sunny-image-4 {
+    position: absolute;
+
+    top: 2303px;
+    left: 12.71%;
+
+    width: 74.58%;
+    height: 604px;
+
+    overflow: hidden;
+}
+
+.sunny-image-4 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* PERFECT COMPANION */
+
+.sunny-text-4 {
+    position: absolute;
+
+    top: 2930px;
+    left: 73.06%;
+
+    transform: translateX(-50%);
+
+    width: max-content;
+
+    text-align: center;
+}
+
+
+/* NAVIGATION */
+
+.sunny-navigation {
+    top: 3550px;
+
+    color: #000;
+}
+
+.sunny-navigation a {
+    color: #000;
+}
+
+
+/* REVEAL */
+
+.sunny-page .reveal {
+    opacity: 0;
+    transform:
+        translateX(var(--reveal-x, 0))
+        translateY(25px);
+
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.sunny-page .reveal.visible {
+    opacity: 1;
+    transform:
+        translateX(var(--reveal-x, 0))
+        translateY(0);
 }
