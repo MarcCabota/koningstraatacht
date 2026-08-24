@@ -1371,7 +1371,7 @@ body {
 
 
     .sunny-content {
-        height: 286.11vw;
+        height: 350vw;
         max-width: none;
         width: 100%;
     }
@@ -1433,6 +1433,12 @@ body {
     .sunny-navigation {
         top: 282.29vw;
     }
+
+html:has(body.sunny-page),
+body.sunny-page {
+    touch-action: pan-y;
+}
+
 }
 
 
