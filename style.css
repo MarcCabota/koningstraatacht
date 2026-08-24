@@ -276,9 +276,9 @@ a {
         font-size: 12px;
     }
 
-.intro-spacer {
-    height: 100px;
-}
+    .intro-spacer {
+        height: 100px;
+    }
 
     .experience {
         height: 56.25vw;
@@ -294,12 +294,6 @@ a {
     .experience-overlay {
         background: rgba(0,0,0,0);
     }
-
-.experience:hover .experience-title {
-    opacity: 0;
-    transform: translateY(10px);
-}
-
 
 
 }
