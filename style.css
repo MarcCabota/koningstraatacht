@@ -257,9 +257,10 @@ a {
 
 @media (max-width: 700px) {
 
-html {
-    scroll-behavior: smooth;
-}
+    html {
+        scroll-snap-type: none;
+    }
+
     .header {
         height: 60px;
         padding: 0 20px;
