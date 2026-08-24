@@ -1485,4 +1485,10 @@ body {
         scroll-snap-type: none;
     }
 
+    .sunny-page .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
 }
