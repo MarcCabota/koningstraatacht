@@ -1488,8 +1488,17 @@ body {
     }
 
     html:has(body.sunny-page) {
-        scroll-behavior: auto;
+        scroll-behavior: auto !important;
         scroll-snap-type: none !important;
+    }
+
+    body.sunny-page {
+        scroll-snap-type: none !important;
+    }
+
+    body.sunny-page * {
+        scroll-snap-align: none !important;
+        scroll-snap-stop: normal !important;
     }
 
     body.sunny-page,
