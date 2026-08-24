@@ -303,3 +303,595 @@ a {
 
 
 }
+
+/* =========================================================
+   INDIVIDUAL EXPERIENCE PAGES
+   KLIMAX — FIRST DAY
+========================================================= */
+
+.experience-page {
+    background: #0e0e0c;
+    color: white;
+}
+
+
+/* =========================
+   EXPERIENCE HERO
+========================= */
+
+.experience-intro {
+    position: relative;
+    width: 100%;
+    height: 472px;
+    overflow: hidden;
+    background: #0e0e0c;
+}
+
+.experience-intro-image {
+    position: absolute;
+    top: 0;
+    left: 14.1%;
+    width: 85.9%;
+    height: 472px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.experience-intro-image img {
+    position: absolute;
+    width: 75.92%;
+    height: 154.56%;
+    left: 26.18%;
+    top: -15.96%;
+
+    max-width: none;
+    object-fit: cover;
+}
+
+.experience-intro-gradient {
+    position: absolute;
+    top: 0;
+    left: 36.4%;
+    width: 63.6%;
+    height: 472px;
+
+    background: linear-gradient(
+        to left,
+        rgba(14, 14, 12, 0),
+        #0e0e0c
+    );
+
+    pointer-events: none;
+}
+
+.experience-intro-content {
+    position: absolute;
+    left: 7.7%;
+    top: 0;
+
+    z-index: 2;
+}
+
+.experience-intro-content h1 {
+    position: absolute;
+    top: 236px;
+    left: 0;
+
+    margin: 0;
+
+    font-size: 64px;
+    line-height: normal;
+    font-weight: 500;
+
+    white-space: nowrap;
+}
+
+.experience-intro-content p {
+    position: absolute;
+    top: 389px;
+    left: 0;
+
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 400;
+
+    letter-spacing: 0.12em;
+    white-space: nowrap;
+}
+
+
+/* =========================
+   EXPERIENCE CONTENT
+========================= */
+
+.experience-content {
+    position: relative;
+
+    width: 100%;
+    max-width: 1440px;
+    height: 4577px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.experience-description {
+    position: absolute;
+
+    top: 252px;
+    right: 17.5%;
+
+    width: 373px;
+
+    text-align: right;
+}
+
+.experience-description p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+
+/* =========================
+   KLIMAX LOGO
+========================= */
+
+.experience-logo {
+    position: absolute;
+
+    top: 453px;
+    left: 14.5%;
+
+    width: 414px;
+    height: 158px;
+}
+
+.experience-logo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+/* =========================
+   SMALL IMAGE
+========================= */
+
+.experience-image-small {
+    position: absolute;
+
+    top: 757px;
+    left: 46%;
+
+    width: 664px;
+    height: 373px;
+
+    overflow: hidden;
+}
+
+.experience-image-small img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================
+   FIRST TEXT
+========================= */
+
+.experience-text-left {
+    position: absolute;
+
+    top: 920px;
+    left: 33.3%;
+
+    transform: translateX(-100%);
+
+    width: max-content;
+}
+
+.experience-text-left p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+
+/* =========================
+   MEDIUM IMAGE
+========================= */
+
+.experience-image-medium {
+    position: absolute;
+
+    top: 1346px;
+    left: 9.5%;
+
+    width: 854px;
+    height: 480px;
+
+    overflow: hidden;
+}
+
+.experience-image-medium img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================
+   IMAGE COUNTER
+========================= */
+
+.experience-counter {
+    position: absolute;
+
+    top: 1708px;
+    left: 65.3%;
+
+    transform: translateX(-50%);
+
+    color: #7a7a7a;
+
+    font-family: monospace;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+/* =========================
+   CENTER TEXT
+========================= */
+
+.experience-text-center {
+    position: absolute;
+
+    top: 1836px;
+    left: 65.35%;
+
+    transform: translateX(-50%);
+
+    width: max-content;
+}
+
+.experience-text-center p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+
+/* =========================
+   FULL WIDTH IMAGE
+========================= */
+
+.experience-image-full {
+    position: absolute;
+
+    top: 2277px;
+    left: 0;
+
+    width: 100%;
+    height: 809px;
+
+    overflow: hidden;
+}
+
+.experience-image-full img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================
+   FINAL TEXT
+========================= */
+
+.experience-final-text {
+    position: absolute;
+
+    top: 3283px;
+    left: 0;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.experience-final-text p {
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 300;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.experience-navigation {
+    position: absolute;
+
+    top: 3917px;
+    left: 8.33%;
+
+    width: 83.34%;
+    height: 190px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.experience-navigation a {
+    display: flex;
+    align-items: center;
+}
+
+.experience-navigation .previous {
+    justify-content: flex-start;
+}
+
+.experience-navigation .back {
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.experience-navigation .next {
+    justify-content: flex-end;
+}
+
+
+/* =========================================================
+   SCROLL REVEAL
+========================================================= */
+
+.experience-page .reveal {
+    opacity: 0;
+    transform: translateY(25px);
+
+    transition:
+        opacity 0.9s ease,
+        transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.experience-page .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .experience-intro {
+        height: 100svh;
+    }
+
+    .experience-intro-image {
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .experience-intro-image img {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+
+        object-fit: cover;
+    }
+
+    .experience-intro-gradient {
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(14,14,12,0) 20%,
+                rgba(14,14,12,0.85) 75%,
+                #0e0e0c 100%
+            );
+    }
+
+    .experience-intro-content {
+        left: 20px;
+        bottom: 50px;
+        top: auto;
+    }
+
+    .experience-intro-content h1 {
+        position: static;
+
+        font-size: 42px;
+        line-height: 1.05;
+
+        white-space: normal;
+    }
+
+    .experience-intro-content p {
+        position: static;
+
+        margin-top: 14px;
+
+        font-size: 13px;
+        line-height: 16px;
+
+        letter-spacing: 0.08em;
+    }
+
+
+    /* Mobile content becomes a normal vertical flow */
+
+    .experience-content {
+        width: 100%;
+        height: auto;
+
+        padding-bottom: 80px;
+    }
+
+    .experience-description,
+    .experience-logo,
+    .experience-image-small,
+    .experience-text-left,
+    .experience-image-medium,
+    .experience-counter,
+    .experience-text-center,
+    .experience-image-full,
+    .experience-final-text,
+    .experience-navigation {
+
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+
+        transform: none;
+
+        width: auto;
+        height: auto;
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .experience-description {
+        margin-top: 100px;
+        margin-bottom: 80px;
+
+        text-align: right;
+    }
+
+    .experience-description p {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+
+    .experience-logo {
+        height: 100px;
+        margin-bottom: 90px;
+    }
+
+    .experience-logo img {
+        object-fit: contain;
+    }
+
+
+    .experience-image-small {
+        width: calc(100% - 40px);
+        height: auto;
+        aspect-ratio: 16 / 9;
+
+        margin-bottom: 70px;
+    }
+
+
+    .experience-text-left {
+        margin-bottom: 70px;
+    }
+
+    .experience-text-left p {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+
+    .experience-image-medium {
+        width: calc(100% - 40px);
+        height: auto;
+        aspect-ratio: 16 / 9;
+
+        margin-bottom: 35px;
+    }
+
+
+    .experience-counter {
+        margin-bottom: 90px;
+
+        text-align: right;
+
+        font-size: 14px;
+    }
+
+
+    .experience-text-center {
+        margin-bottom: 90px;
+
+        text-align: center;
+    }
+
+    .experience-text-center p {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+
+    .experience-image-full {
+        width: 100%;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        aspect-ratio: 16 / 9;
+
+        margin-bottom: 90px;
+    }
+
+
+    .experience-final-text {
+        margin-bottom: 120px;
+
+        text-align: center;
+    }
+
+    .experience-final-text p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    .experience-navigation {
+        width: calc(100% - 40px);
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        font-size: 14px;
+    }
+}
