@@ -1353,15 +1353,17 @@ body {
         left: 12.5%;
     }
 
-    .sunny-intro .experience-intro-content h1 {
-        top: 13.13vw;
-        font-size: 4.44vw;
-    }
+.sunny-intro .experience-intro-content h1 {
+    top: 18vw;
+    font-size: 4.2vw;
+    line-height: 1.1;
+}
 
-    .sunny-intro .experience-intro-content p {
-        top: 23.75vw;
-        font-size: 2.22vw;
-    }
+.sunny-intro .experience-intro-content p {
+    top: 28vw;
+    font-size: 2vw;
+    line-height: 1.2;
+}
 
     .sunny-content {
         height: 286.11vw;
