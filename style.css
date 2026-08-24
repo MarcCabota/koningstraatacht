@@ -570,7 +570,7 @@ a {
 .experience-text-center {
     position: absolute;
 
-    top: 2040px;
+    top: 2100px;
     left: 75%;
 
     transform: translateX(-50%);
@@ -637,11 +637,11 @@ a {
 }
 
 .experience-final-text p:first-child {
-    transform: translateX(-80px);
+    transform: translateX(-120px);
 }
 
 .experience-final-text p:last-child {
-    transform: translateX(80px);
+    transform: translateX(120px);
 }
 
 
