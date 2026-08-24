@@ -1352,7 +1352,7 @@ body {
     .sunny-intro .experience-intro-content {
         position: absolute;
         left: 12.5%;
-        top: 18vw;
+        top: 25vw;
         bottom: auto;
     }
 
@@ -1387,8 +1387,8 @@ body {
 
     .sunny-text-1 {
         top: 43.54vw;
-        left: 56.2%;
-        transform: translateX(-100%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .sunny-image-2 {
@@ -1489,7 +1489,19 @@ body {
 
     html:has(body.sunny-page) {
         scroll-behavior: auto;
-        scroll-snap-type: none;
+        scroll-snap-type: none !important;
+    }
+
+    body.sunny-page,
+    body.sunny-page *,
+    .sunny-page .experience-content,
+    .sunny-page .sunny-intro,
+    .sunny-page .sunny-image-1,
+    .sunny-page .sunny-image-2,
+    .sunny-page .sunny-image-3,
+    .sunny-page .sunny-image-4 {
+        scroll-snap-align: none !important;
+        scroll-snap-stop: normal !important;
     }
 
     .sunny-page .reveal {
