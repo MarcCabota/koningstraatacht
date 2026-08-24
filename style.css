@@ -237,6 +237,18 @@ a {
     transform: translateY(0);
 }
 
+.experience.touch-active img {
+    filter: brightness(0.7);
+}
+
+.experience.touch-active .experience-overlay {
+    background: rgba(0,0,0,0.15);
+}
+
+.experience.touch-active .experience-title {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 /* =========================
    MOBILE
@@ -296,6 +308,11 @@ a {
         opacity: 1;
         transform: translateY(0);
     }
+
+.experience:hover .experience-title {
+    opacity: 0;
+    transform: translateY(10px);
+}
 
 
 
