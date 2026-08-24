@@ -265,6 +265,10 @@ a {
         font-size: 12px;
     }
 
+.intro-spacer {
+    height: 100px;
+}
+
     .experience {
         height: 56.25vw;
     }
@@ -279,11 +283,6 @@ a {
     .experience-overlay {
         background: rgba(0,0,0,0);
     }
-
-    .experience:hover img {
-        transform: none;
-        filter: none;
-    }
     
     .experience.active img {
         filter: brightness(0.7);
@@ -297,4 +296,7 @@ a {
         opacity: 1;
         transform: translateY(0);
     }
+
+
+
 }
