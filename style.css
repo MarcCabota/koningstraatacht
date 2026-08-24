@@ -1388,7 +1388,7 @@ body {
     .sunny-text-1 {
         top: 43.54vw;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 
     .sunny-image-2 {
@@ -1501,22 +1501,8 @@ body {
         scroll-snap-stop: normal !important;
     }
 
-    body.sunny-page,
-    body.sunny-page *,
-    .sunny-page .experience-content,
-    .sunny-page .sunny-intro,
-    .sunny-page .sunny-image-1,
-    .sunny-page .sunny-image-2,
-    .sunny-page .sunny-image-3,
-    .sunny-page .sunny-image-4 {
-        scroll-snap-align: none !important;
-        scroll-snap-stop: normal !important;
+    html,
+    body {
+        scroll-snap-type: none !important;
     }
-
-    .sunny-page .reveal {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
-    }
-
 }
