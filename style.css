@@ -806,10 +806,10 @@ body {
     .experience-description {
         position: absolute;
 
-        top: 17.5vw;
+        top: 16.5vw;
         right: 17.5%;
 
-        width: 25.9vw;
+        width: 27vw;
 
         margin: 0;
 
@@ -867,7 +867,7 @@ body {
         position: absolute;
 
         top: 63.89vw;
-        left: 33.3%;
+        left: 35%;
 
         width: max-content;
 
@@ -922,7 +922,7 @@ body {
         position: absolute;
 
         top: 145.3vw;
-        left: 75%;
+        left: 65%;
 
         width: max-content;
 
