@@ -1377,15 +1377,6 @@ body {
         width: 100%;
     }
 
-    .sunny-image-1 {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 39.79vw;
-
-        transform: none;
-    }
-
     .sunny-text-1 {
         top: 43.54vw;
         left: 50%;
@@ -1761,7 +1752,7 @@ body.sunny-page {
 
     margin: 0;
 
-    opacity: 0.03;
+    opacity: 0.3;
 
     z-index: 1;
     overflow: visible;
@@ -1774,7 +1765,7 @@ body.sunny-page {
     object-fit: contain;
     object-position: left center;
 
-    opacity: 0.1;
+    opacity: 0.2;
     filter: brightness(0.5);
 }
 
@@ -2067,7 +2058,7 @@ body.sunny-page {
         width: 38%;
         height: 70vw;
 
-        opacity: 0.3;
+        opacity: 0.8;
 
         z-index: 1;
     }   
@@ -2257,18 +2248,70 @@ body.sunny-page {
 @media (max-width: 700px) {
 
     /* =====================================================
-       SUNNY ROOFTOP — FULLSCREEN MOBILE HERO
+       SUNNY ROOFTOP — MOBILE HERO
     ===================================================== */
 
     .sunny-intro {
         position: relative;
 
-        height: 100svh;
+        height: 56.25vw;
 
-        background: #f2f1ed;
+        background: transparent;
 
         z-index: 2;
+        overflow: hidden;
     }
+
+    /* PHOTO */
+
+    .sunny-image-1 {
+        position: absolute;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 56.25vw;
+
+        z-index: 1;
+
+        overflow: hidden;
+    }
+
+    .sunny-image-1 img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+
+        object-position: center center;
+    }
+
+
+    /* DARK GRADIENT OVER PHOTO */
+
+    .sunny-intro::after {
+        content: "";
+
+        position: absolute;
+
+        inset: 0;
+
+        z-index: 2;
+
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(0,0,0,0) 35%,
+                rgba(0,0,0,0.08) 55%,
+                rgba(0,0,0,0.45) 100%
+            );
+
+        pointer-events: none;
+    }
+
+
+    /* TITLE */
 
     .sunny-intro .experience-intro-content {
         position: absolute;
@@ -2276,12 +2319,12 @@ body.sunny-page {
         left: 20px;
         right: 20px;
 
-        bottom: 50px;
         top: auto;
+        bottom: 7vw;
 
         width: auto;
 
-        z-index: 5;
+        z-index: 3;
 
         text-align: left;
     }
@@ -2309,38 +2352,59 @@ body.sunny-page {
     }
 
 
-    /* MOVE THE FIRST PHOTO INTO THE HERO */
+    /* =====================================================
+       CONTENT
+       First image is now the hero, so remove it from flow
+    ===================================================== */
 
     .sunny-content {
         position: relative;
+
+        height: 230.5vw;
     }
 
     .sunny-image-1 {
-        position: absolute;
-
-        top: -100svh;
-
-        left: 0;
-
-        width: 100%;
-        height: 100svh;
-
-        z-index: 1;
-
-        overflow: hidden;
+        /* prevent the original content position */
+        transform: none;
     }
 
-    .sunny-image-1 img {
-        width: 100%;
-        height: 100%;
 
-        object-fit: cover;
+    /* =====================================================
+       REST OF THE EXPERIENCE
+    ===================================================== */
 
-        object-position: center center;
+    .sunny-text-1 {
+        top: 7vw;
     }
 
+    .sunny-image-2 {
+        top: 25vw;
+    }
+
+    .sunny-text-2 {
+        top: 42vw;
+    }
+
+    .sunny-image-3 {
+        top: 69vw;
+    }
+
+    .sunny-text-3 {
+        top: 105vw;
+    }
+
+    .sunny-image-4 {
+        top: 123vw;
+    }
+
+    .sunny-text-4 {
+        top: 168vw;
+    }
+
+    .sunny-navigation {
+        top: calc(100% - 13.19vw);
+    }
 }
-
 
 @media (max-width: 700px) {
 
@@ -3239,7 +3303,7 @@ body.sunny-page {
     ===================================================== */
 
     .bernat-final-text {
-        top: 575vw;
+        top: 580vw;
         left: 90%;
 
         width: 48%;
