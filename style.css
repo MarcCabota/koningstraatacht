@@ -2146,3 +2146,207 @@ body.sunny-page {
         touch-action: pan-y;
     }
 }
+
+
+/* =========================================================
+   ORTHODOX — MOBILE FINAL ADJUSTMENTS
+========================================================= */
+
+@media (max-width: 700px) {
+
+    /* HERO FULL SCREEN */
+
+    .orthodox-intro {
+        height: 100svh;
+    }
+
+    .orthodox-intro-image {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .orthodox-intro-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .orthodox-intro-gradient {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(14,14,12,0) 20%,
+                rgba(14,14,12,0.15) 50%,
+                rgba(14,14,12,0.80) 78%,
+                #0e0e0c 100%
+            );
+    }
+
+    .orthodox-intro .experience-intro-content {
+        left: 20px;
+        right: 20px;
+        bottom: 50px;
+        top: auto;
+
+        width: auto;
+
+        text-align: left;
+    }
+
+    .orthodox-intro .experience-intro-content h1 {
+        position: static;
+
+        font-size: 9vw;
+        line-height: 1.05;
+
+        white-space: nowrap;
+    }
+
+    .orthodox-intro .experience-intro-content p {
+        position: static;
+
+        margin-top: 14px;
+
+        font-size: 3.2vw;
+        line-height: 1.2;
+
+        letter-spacing: 0.08em;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+
+    /* =====================================================
+       MOBILE TYPOGRAPHY — ALL EXPERIENCE PAGES
+    ===================================================== */
+
+    .experience-description p,
+    .experience-text p,
+    .experience-counter,
+    .experience-final-text p,
+    .sunny-text-1 p,
+    .sunny-text-2 p,
+    .sunny-text-3 p,
+    .sunny-text-4 p,
+    .orthodox-text-1 p,
+    .orthodox-text-2 p {
+        font-size: 3.4vw;
+        line-height: 1.35;
+    }
+
+    .experience-navigation,
+    .sunny-navigation,
+    .orthodox-navigation {
+        font-size: 3.2vw;
+        line-height: 1.3;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    /* =====================================================
+       SUNNY ROOFTOP — FULLSCREEN MOBILE HERO
+    ===================================================== */
+
+    .sunny-intro {
+        position: relative;
+
+        height: 100svh;
+
+        background: #f2f1ed;
+
+        z-index: 2;
+    }
+
+    .sunny-intro .experience-intro-content {
+        position: absolute;
+
+        left: 20px;
+        right: 20px;
+
+        bottom: 50px;
+        top: auto;
+
+        width: auto;
+
+        z-index: 5;
+
+        text-align: left;
+    }
+
+    .sunny-intro .experience-intro-content h1 {
+        position: static;
+
+        font-size: 9vw;
+        line-height: 1.05;
+
+        white-space: normal;
+
+        color: #000;
+    }
+
+    .sunny-intro .experience-intro-content p {
+        position: static;
+
+        margin-top: 14px;
+
+        font-size: 3.2vw;
+        line-height: 1.2;
+
+        color: #000;
+    }
+
+
+    /* MOVE THE FIRST PHOTO INTO THE HERO */
+
+    .sunny-content {
+        position: relative;
+    }
+
+    .sunny-image-1 {
+        position: absolute;
+
+        top: -100svh;
+
+        left: 0;
+
+        width: 100%;
+        height: 100svh;
+
+        z-index: 1;
+
+        overflow: hidden;
+    }
+
+    .sunny-image-1 img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+
+        object-position: center center;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .experience-page:not(.sunny-page):not(.orthodox-page) 
+    .experience-intro-image img {
+        object-position: center 42%;
+    }
+
+}
