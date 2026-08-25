@@ -1401,7 +1401,7 @@ body {
 
     .sunny-text-2 {
         top: 78.65vw;
-        left: 79.44%;
+        left: 75%;
         transform: translateX(-100%);
     }
 
@@ -1413,7 +1413,7 @@ body {
     }
 
     .sunny-text-3 {
-        top: 143.68vw;
+        top: 143vw;
         left: 14.41%;
         transform: translateX(-50%);
     }
@@ -1426,8 +1426,8 @@ body {
     }
 
     .sunny-text-4 {
-        top: 203.96vw;
-        left: 73.06%;
+        top: 205vw;
+        left: 63%;
         transform: translateX(-50%);
     }
 
