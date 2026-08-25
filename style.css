@@ -867,7 +867,7 @@ body {
         position: absolute;
 
         top: 63.89vw;
-        left: 35%;
+        left: 40%;
 
         width: max-content;
 
@@ -905,7 +905,7 @@ body {
         position: absolute;
 
         top: 128.47vw;
-        left: 65.3%;
+        left: 65%;
 
         margin: 0;
 
@@ -1413,8 +1413,8 @@ body {
     }
 
     .sunny-text-3 {
-        top: 143vw;
-        left: 14.41%;
+        top: 142vw;
+        left: 13%;
         transform: translateX(-50%);
     }
 
@@ -1427,7 +1427,7 @@ body {
 
     .sunny-text-4 {
         top: 205vw;
-        left: 63%;
+        left: 62%;
         transform: translateX(-50%);
     }
 
@@ -1995,7 +1995,7 @@ body.sunny-page {
         top: 10.5vw;
         right: 16.5%;
 
-        width: 30vw;
+        width: 35vw;
 
         text-align: right;
     }
@@ -2010,7 +2010,7 @@ body.sunny-page {
 
     .orthodox-text-1 {
         top: 30vw;
-        left: 14.5%;
+        left: 16%;
 
         width: max-content;
 
@@ -2026,7 +2026,7 @@ body.sunny-page {
     /* IMAGE 2 */
 
     .orthodox-image-1 {
-        top: 45vw;
+        top: 50vw;
         left: 22.5%;
 
         width: 50%;
@@ -2037,7 +2037,7 @@ body.sunny-page {
     /* COUNTER */
 
     .orthodox-counter {
-        top: 70.5vw;
+        top: 74vw;
         left: 12.3%;
 
         font-size: 1.667vw;
@@ -2050,7 +2050,7 @@ body.sunny-page {
     /* IMAGE 3 */
 
     .orthodox-image-2 {
-        top: 81vw;
+        top: 88vw;
         left: 8%;
 
         width: 49.5%;
@@ -2062,12 +2062,12 @@ body.sunny-page {
 
     .orthodox-silhouette {
         top: 72vw;
-        right: -5%;
+        right: 0;
 
         width: 38%;
         height: 70vw;
 
-        opacity: 0.06;
+        opacity: 0.3;
 
         z-index: 1;
     }   
@@ -2076,7 +2076,7 @@ body.sunny-page {
     /* CENTER TEXT */
 
     .orthodox-text-2 {
-        top: 116vw;
+        top: 125vw;
         left: 50%;
 
         width: max-content;
@@ -2095,7 +2095,7 @@ body.sunny-page {
     /* FULL IMAGE */
 
     .orthodox-image-full {
-        top: 128vw;
+        top: 138vw;
         left: 0;
 
         width: 100%;
@@ -2106,13 +2106,13 @@ body.sunny-page {
     /* FINAL TEXT */
 
     .orthodox-final-text {
-        top: 190vw;
+        top: 200vw;
         right: 0;
         left: 0;
 
         width: 100%;
 
-        padding-right: 8.5%;
+        padding-right: 10%;
 
         text-align: right;
     }
@@ -2347,6 +2347,948 @@ body.sunny-page {
     .experience-page:not(.sunny-page):not(.orthodox-page) 
     .experience-intro-image img {
         object-position: center 42%;
+    }
+
+}
+
+
+
+/* =========================================================
+   ANTWERP W/ BERNAT
+========================================================= */
+
+.bernat-page {
+    background: #0e0e0c;
+    color: white;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.bernat-intro {
+    position: relative;
+
+    width: 100%;
+    height: 722px;
+
+    background: #0e0e0c;
+    overflow: hidden;
+}
+
+
+/* HERO IMAGE */
+
+.bernat-intro-image {
+    position: absolute;
+
+    top: 0;
+    left: 32.5%;
+
+    width: 67.5%;
+    height: 722px;
+
+    overflow: hidden;
+
+    opacity: 0.8;
+}
+
+.bernat-intro-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* HERO GRADIENT */
+
+.bernat-intro-gradient {
+    position: absolute;
+
+    top: 0;
+    left: 32.5%;
+
+    width: 67.5%;
+    height: 722px;
+
+    background: linear-gradient(
+        to right,
+        #0e0e0c 0%,
+        rgba(14,14,12,0.72) 25%,
+        rgba(14,14,12,0) 48%
+    );
+
+    pointer-events: none;
+}
+
+
+/* HERO TEXT */
+
+.bernat-intro .experience-intro-content {
+    position: absolute;
+
+    top: 0;
+    left: 9.1%;
+
+    width: auto;
+
+    z-index: 2;
+}
+
+.bernat-intro .experience-intro-content h1 {
+    position: absolute;
+
+    top: 320px;
+    left: 0;
+
+    margin: 0;
+
+    font-size: 64px;
+    line-height: 1;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+}
+
+.bernat-intro .experience-intro-content p {
+    position: absolute;
+
+    top: 475px;
+    left: 0;
+
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 32px;
+
+    font-weight: 400;
+
+    letter-spacing: 0.12em;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.bernat-content {
+    position: relative;
+
+    width: 100%;
+    max-width: 1440px;
+
+    height: 7701px;
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   TEXT 1
+========================================================= */
+
+.bernat-text-1 {
+    position: absolute;
+
+    top: 143px;
+    left: 63.06%;
+
+    width: max-content;
+
+    transform: translateX(-100%);
+
+    text-align: right;
+
+    --reveal-x: -100%;
+}
+
+.bernat-text-1 p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   IMAGE 1
+========================================================= */
+
+.bernat-image-1 {
+    position: absolute;
+
+    top: 277px;
+    left: 16.11%;
+
+    width: 67.78%;
+    height: 549px;
+
+    overflow: hidden;
+}
+
+.bernat-image-1 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   TEXT 2
+========================================================= */
+
+.bernat-text-2 {
+    position: absolute;
+
+    top: 929px;
+    left: 17.64%;
+
+    width: max-content;
+
+    text-align: left;
+}
+
+.bernat-text-2 p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   IMAGE 2
+========================================================= */
+
+.bernat-image-2 {
+    position: absolute;
+
+    top: 1063px;
+    left: 47.5%;
+
+    width: 36.39%;
+    height: 385px;
+
+    overflow: hidden;
+}
+
+.bernat-image-2 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   COUNTERS
+========================================================= */
+
+.bernat-counter {
+    position: absolute;
+
+    color: #7a7a7a;
+
+    font-family: monospace;
+
+    font-size: 24px;
+    line-height: 32px;
+
+    font-weight: 400;
+}
+
+.bernat-counter-1 {
+    top: 1469px;
+    left: 80.38%;
+
+    transform: translateX(-50%);
+
+    --reveal-x: -50%;
+}
+
+.bernat-counter-2 {
+    top: 2077px;
+    left: 19.62%;
+
+    transform: translateX(-50%);
+
+    --reveal-x: -50%;
+}
+
+
+/* =========================================================
+   IMAGE 3
+========================================================= */
+
+.bernat-image-3 {
+    position: absolute;
+
+    top: 1651px;
+    left: 16.11%;
+
+    width: 38.06%;
+    height: 403px;
+
+    overflow: hidden;
+}
+
+.bernat-image-3 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   FULL WIDTH IMAGE
+========================================================= */
+
+.bernat-image-full {
+    position: absolute;
+
+    top: 2453px;
+    left: 0;
+
+    width: 100%;
+    height: 809px;
+
+    overflow: hidden;
+}
+
+.bernat-image-full img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   TEXT 3
+========================================================= */
+
+.bernat-text-3 {
+    position: absolute;
+
+    top: 4119px;
+    left: 23.33%;
+
+    width: max-content;
+
+    transform: translateX(-50%);
+
+    text-align: center;
+
+    --reveal-x: -50%;
+}
+
+.bernat-text-3 p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   IMAGE 4
+========================================================= */
+
+.bernat-image-4 {
+    position: absolute;
+
+    top: 3529px;
+    left: 26.81%;
+
+    width: 61.74%;
+    height: 500px;
+
+    overflow: hidden;
+}
+
+.bernat-image-4 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   IMAGE 5
+========================================================= */
+
+.bernat-image-5 {
+    position: absolute;
+
+    top: 4375px;
+    left: 18.96%;
+
+    width: 46.04%;
+    height: 497px;
+
+    overflow: hidden;
+}
+
+.bernat-image-5 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   TEXT 4
+========================================================= */
+
+.bernat-text-4 {
+    position: absolute;
+
+    top: 4905px;
+    left: 50%;
+
+    width: max-content;
+
+    transform: translateX(-50%);
+
+    text-align: center;
+
+    --reveal-x: -50%;
+}
+
+.bernat-text-4 p {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 32px;
+
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   IMAGE 6
+========================================================= */
+
+.bernat-image-6 {
+    position: absolute;
+
+    top: 4970px;
+    left: 34.93%;
+
+    width: 46.04%;
+    height: 497px;
+
+    overflow: hidden;
+}
+
+.bernat-image-6 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   FINAL IMAGE
+========================================================= */
+
+.bernat-image-final {
+    position: absolute;
+
+    top: 5985px;
+    left: 9.93%;
+
+    width: 50%;
+    height: 961px;
+
+    overflow: hidden;
+}
+
+.bernat-image-final img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   FINAL TEXT
+========================================================= */
+
+.bernat-final-text {
+    position: absolute;
+
+    top: 6882px;
+    left: 87.78%;
+
+    width: max-content;
+
+    transform: translateX(-100%);
+
+    text-align: right;
+
+    --reveal-x: -100%;
+}
+
+.bernat-final-text p {
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 32px;
+
+    font-weight: 300;
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+.bernat-navigation {
+    position: absolute;
+
+    top: 7511px;
+    left: 8.33%;
+
+    width: 83.34%;
+    height: 190px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+
+    font-size: 28px;
+    line-height: 32px;
+
+    font-weight: 300;
+}
+
+.bernat-navigation a {
+    display: flex;
+    align-items: center;
+}
+
+.bernat-navigation .previous {
+    justify-content: flex-start;
+}
+
+.bernat-navigation .back {
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.bernat-navigation .next {
+    justify-content: flex-end;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+
+    /* =====================================================
+       HERO
+    ===================================================== */
+
+    .bernat-intro {
+        height: 100svh;
+    }
+
+    .bernat-intro-image {
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        opacity: 0.8;
+    }
+
+    .bernat-intro-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+
+        object-position: center center;
+    }
+
+    .bernat-intro-gradient {
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(14,14,12,0) 20%,
+                rgba(14,14,12,0.15) 48%,
+                rgba(14,14,12,0.82) 78%,
+                #0e0e0c 100%
+            );
+    }
+
+    .bernat-intro .experience-intro-content {
+        position: absolute;
+
+        left: 20px;
+        right: 20px;
+
+        top: auto;
+        bottom: 50px;
+
+        width: auto;
+
+        z-index: 2;
+    }
+
+    .bernat-intro .experience-intro-content h1 {
+        position: static;
+
+        font-size: 9vw;
+        line-height: 1.05;
+
+        white-space: normal;
+    }
+
+    .bernat-intro .experience-intro-content p {
+        position: static;
+
+        margin-top: 14px;
+
+        font-size: 3.2vw;
+        line-height: 1.2;
+
+        letter-spacing: 0.08em;
+    }
+
+
+    /* =====================================================
+       CONTENT
+    ===================================================== */
+
+    .bernat-content {
+        width: 100%;
+        max-width: none;
+
+        height: 640vw;
+
+        margin: 0;
+        padding: 0;
+
+        position: relative;
+    }
+
+
+    /* =====================================================
+       TEXT 1
+    ===================================================== */
+
+    .bernat-text-1 {
+        top: 12vw;
+        left: 50%;
+
+        width: 78%;
+
+        transform: translateX(-50%);
+
+        text-align: right;
+
+        --reveal-x: -50%;
+    }
+
+    .bernat-text-1 p {
+        font-size: 3.4vw;
+        line-height: 1.35;
+    }
+
+
+    /* =====================================================
+       IMAGE 1
+    ===================================================== */
+
+    .bernat-image-1 {
+        top: 30vw;
+        left: 7.5%;
+
+        width: 85%;
+        height: 47.8vw;
+    }
+
+
+    /* =====================================================
+       TEXT 2
+    ===================================================== */
+
+    .bernat-text-2 {
+        top: 84vw;
+        left: 50%;
+
+        width: 78%;
+
+        transform: translateX(-50%);
+
+        text-align: left;
+
+        --reveal-x: -50%;
+    }
+
+    .bernat-text-2 p {
+        font-size: 3.4vw;
+        line-height: 1.35;
+    }
+
+
+    /* =====================================================
+       IMAGE 2
+    ===================================================== */
+
+    .bernat-image-2 {
+        top: 104vw;
+        left: 46%;
+
+        width: 47%;
+        height: 34.6vw;
+    }
+
+
+    /* =====================================================
+       COUNTER 1
+    ===================================================== */
+
+    .bernat-counter-1 {
+        top: 140vw;
+        left: 88%;
+
+        transform: translateX(-100%);
+
+        --reveal-x: -100%;
+
+        font-size: 2.8vw;
+        line-height: 1.3;
+    }
+
+
+    /* =====================================================
+       IMAGE 3
+    ===================================================== */
+
+    .bernat-image-3 {
+        top: 153vw;
+        left: 7.5%;
+
+        width: 47%;
+        height: 34.6vw;
+    }
+
+
+    /* =====================================================
+       COUNTER 2
+    ===================================================== */
+
+    .bernat-counter-2 {
+        top: 191vw;
+        left: 12%;
+
+        transform: none;
+
+        --reveal-x: 0;
+
+        font-size: 2.8vw;
+        line-height: 1.3;
+    }
+
+
+    /* =====================================================
+       FULL WIDTH IMAGE
+    ===================================================== */
+
+    .bernat-image-full {
+        top: 209vw;
+        left: 0;
+
+        width: 100%;
+        height: 56.18vw;
+    }
+
+
+    /* =====================================================
+       TEXT 3
+    ===================================================== */
+
+    .bernat-text-3 {
+        top: 280vw;
+        left: 50%;
+
+        width: 85%;
+
+        transform: translateX(-50%);
+
+        text-align: center;
+
+        --reveal-x: -50%;
+    }
+
+    .bernat-text-3 p {
+        font-size: 3.4vw;
+        line-height: 1.35;
+    }
+
+
+    /* =====================================================
+       IMAGE 4
+    ===================================================== */
+
+    .bernat-image-4 {
+        top: 301vw;
+        left: 10%;
+
+        width: 80%;
+        height: 45vw;
+    }
+
+
+    /* =====================================================
+       IMAGE 5
+    ===================================================== */
+
+    .bernat-image-5 {
+        top: 358vw;
+        left: 8%;
+
+        width: 68%;
+        height: 51vw;
+    }
+
+
+    /* =====================================================
+       TEXT 4
+    ===================================================== */
+
+    .bernat-text-4 {
+        top: 417vw;
+        left: 50%;
+
+        width: 85%;
+
+        transform: translateX(-50%);
+
+        text-align: center;
+
+        --reveal-x: -50%;
+    }
+
+    .bernat-text-4 p {
+        font-size: 3.4vw;
+        line-height: 1.35;
+    }
+
+
+    /* =====================================================
+       IMAGE 6
+    ===================================================== */
+
+    .bernat-image-6 {
+        top: 435vw;
+        left: 28%;
+
+        width: 64%;
+        height: 48vw;
+    }
+
+
+    /* =====================================================
+       FINAL IMAGE
+    ===================================================== */
+
+    .bernat-image-final {
+        top: 500vw;
+        left: 9%;
+
+        width: 55%;
+        height: 73.4vw;
+    }
+
+
+    /* =====================================================
+       FINAL TEXT
+    ===================================================== */
+
+    .bernat-final-text {
+        top: 575vw;
+        left: 90%;
+
+        width: 48%;
+
+        transform: translateX(-100%);
+
+        text-align: right;
+
+        --reveal-x: -100%;
+    }
+
+    .bernat-final-text p {
+        font-size: 3.4vw;
+        line-height: 1.35;
+    }
+
+
+    /* =====================================================
+       NAVIGATION
+    ===================================================== */
+
+    .bernat-navigation {
+        top: calc(100% - 13.19vw);
+
+        left: 8.33%;
+
+        width: 83.34%;
+        height: 13.19vw;
+
+        font-size: 3.2vw;
+        line-height: 1.3;
+    }
+
+
+    /* =====================================================
+       MOBILE SCROLL
+    ===================================================== */
+
+    html:has(body.bernat-page),
+    body.bernat-page {
+        touch-action: pan-y;
+
+        scroll-snap-type: none !important;
+        scroll-behavior: auto !important;
+    }
+
+    body.bernat-page * {
+        scroll-snap-align: none !important;
+        scroll-snap-stop: normal !important;
     }
 
 }
