@@ -1992,10 +1992,10 @@ body.sunny-page {
     /* DESCRIPTION */
 
     .orthodox-description {
-        top: 17.5vw;
-        right: 17.5%;
+        top: 10.5vw;
+        right: 16.5%;
 
-        width: 25.9vw;
+        width: 30vw;
 
         text-align: right;
     }
@@ -2026,8 +2026,8 @@ body.sunny-page {
     /* IMAGE 2 */
 
     .orthodox-image-1 {
-        top: 43vw;
-        left: 17.5%;
+        top: 45vw;
+        left: 22.5%;
 
         width: 50%;
         height: 28vw;
@@ -2050,8 +2050,8 @@ body.sunny-page {
     /* IMAGE 3 */
 
     .orthodox-image-2 {
-        top: 77vw;
-        left: 7.2%;
+        top: 81vw;
+        left: 8%;
 
         width: 49.5%;
         height: 31vw;
@@ -2062,7 +2062,7 @@ body.sunny-page {
 
     .orthodox-silhouette {
         top: 72vw;
-        right: -10%;
+        right: -5%;
 
         width: 38%;
         height: 70vw;
@@ -2076,7 +2076,7 @@ body.sunny-page {
     /* CENTER TEXT */
 
     .orthodox-text-2 {
-        top: 112vw;
+        top: 116vw;
         left: 50%;
 
         width: max-content;
@@ -2095,7 +2095,7 @@ body.sunny-page {
     /* FULL IMAGE */
 
     .orthodox-image-full {
-        top: 123vw;
+        top: 128vw;
         left: 0;
 
         width: 100%;
@@ -2106,7 +2106,7 @@ body.sunny-page {
     /* FINAL TEXT */
 
     .orthodox-final-text {
-        top: 186vw;
+        top: 190vw;
         right: 0;
         left: 0;
 
