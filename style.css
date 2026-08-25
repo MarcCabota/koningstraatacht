@@ -86,6 +86,7 @@ body {
 }
 
 
+
 /* =========================
    INTRO
 ========================= */
@@ -1431,7 +1432,7 @@ body {
     }
 
     .sunny-navigation {
-        top: 282.29vw;
+        top: calc(100% - 13.19vw);
     }
 
 html:has(body.sunny-page),
@@ -1613,7 +1614,7 @@ body.sunny-page {
     position: relative;
 
     width: 100%;
-    height: 3738px;
+    height: 4000px;
 
     max-width: none;
     margin: 0;
@@ -1775,7 +1776,6 @@ body.sunny-page {
 
     opacity: 0.1;
     filter: brightness(0.5);
-    mix-blend-mode: screen;
 }
 
 
@@ -2061,14 +2061,16 @@ body.sunny-page {
     /* SILHOUETTE */
 
     .orthodox-silhouette {
-        top: 75vw;
-        right: 0;
+        top: 72vw;
+        right: -10%;
 
-        width: 13%;
-        height: 45vw;
+        width: 38%;
+        height: 70vw;
 
-        opacity: 0.13;
-    }
+        opacity: 0.06;
+
+        z-index: 1;
+    }   
 
 
     /* CENTER TEXT */
@@ -2081,7 +2083,7 @@ body.sunny-page {
 
         transform: translateX(-50%);
 
-        --reveal-x: 0;
+        --reveal-x: -50%;
     }
 
     .orthodox-text-2 p {
@@ -2124,7 +2126,7 @@ body.sunny-page {
     /* NAVIGATION */
 
     .orthodox-navigation {
-        top: 232vw;
+        top: calc(100% - 13.19vw);
         left: 8.33%;
 
         width: 83.34%;
